@@ -1,0 +1,195 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #1c1c1c;
+}
+.inline-flex-row {
+  display: inline-flex;
+  flex-direction: row;
+}
+.inline-flex-column {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+#main-content-wrapper {
+  text-align: center;
+}
+
+.trailerCardWrapper {
+  margin: 10px 15px;
+  width: 160px;
+  min-height: 226px;
+}
+.trailerCardWrapper div[class^="video-section"].selected {
+  min-height: 450px;
+  position: relative;
+}
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper{
+  position: absolute;
+  width: 92vw;
+  height: 90%;
+  padding: 20px 60px;
+}
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .video-detail-panel{
+  text-align: left;
+  color: white;
+  margin: 0 20px;
+}
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .video-detail-panel .trailer-details i{
+
+  font-size: 30px;
+  margin: 0 10px;
+} 
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .video-detail-panel .feelings{
+  font-size: 10px;
+}
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .video-detail-panel .feelings .circle i{
+  font-size: 16px;
+}
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .video-detail-panel .feelings .circle{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent
+}
+
+.trailerCardWrapper div[class^="video-section"].selected .video-wrapper .iframe-section iframe {
+  width: 100%;
+  height: 100%;
+}
+.trailerCardWrapper .trailerName {
+  color: white;
+  font-family: ubuntu;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.trailerCardWrapper .trailerPosterWrapper {
+  position: relative;
+}
+
+.trailerCardWrapper .trailerPosterWrapper img {
+  display: flex;
+  width: 100%;
+}
+
+.trailerCardWrapper .trailerPosterWrapper .deatilsWrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.trailerCardWrapper .trailerPosterWrapper .deatilsWrapper .releaseDateSection {
+  text-align: right;
+}
+.trailerCardWrapper
+  .trailerPosterWrapper
+  .deatilsWrapper
+  .releaseDateSection
+  .date {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: #4fc697;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.trailerCardWrapper .trailerPosterWrapper .deatilsWrapper .playBtn i {
+  font-size: 50px;
+  color: white;
+}
+
+.trailerCardWrapper .trailerPosterWrapper .deatilsWrapper .ratingSection {
+  padding-bottom: 5px;
+  padding-right: 5px;
+  background: linear-gradient(to top, #000000d1 3%, transparent);
+}
+
+.trailerCardWrapper
+  .trailerPosterWrapper
+  .deatilsWrapper
+  .ratingSection
+  .votes {
+  font-size: 12px;
+  color: white;
+}
+
+.trailerCardWrapper
+  .trailerPosterWrapper
+  .deatilsWrapper
+  .ratingSection
+  .percentage {
+  color: white;
+  font-size: 14px;
+}
+
+.trailerCardWrapper
+  .trailerPosterWrapper
+  .deatilsWrapper
+  .ratingSection
+  .percentage
+  i {
+  color: #4fc697;
+  margin-right: 6px;
+}
