@@ -186,7 +186,7 @@ function trailerCardIterator(data) {
  * Makes API calls.
  */
 function fetchTrailerData() {
-  return fetch("/data.json")
+  return fetch("./data.json")
     .then(res => res.json())
     .catch(err => console.log(err));
 }
